@@ -1,0 +1,124 @@
+#fashion{
+    .fashion{
+        img{
+            position: relative;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        h3{
+            position: absolute;
+            bottom: 15px;
+            left:100px;
+            font-size: 30px;
+            color: white;
+            font-weight: 700;
+        }
+    }
+}
+
+#trending{
+    .trending{
+        h3{
+            font-size: 30px;
+            padding: 20px 0;
+        }
+        img{
+            padding-top: 25px;
+        }
+    }
+}
+
+#testimonial{
+    background-color: #F3EAD8;
+    padding: 50px 0;
+    .testimonial{
+        text-align: center;
+        .testH{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h3{
+            font-size: 40px;
+            padding: 40px 0;
+        }
+        p{
+            font-size: 20px;
+            padding: 20px 0;
+        }
+        img{
+            padding-right: 20px;
+            padding-top: 50px;
+        }
+        span{
+            padding-top: 50px;
+        };
+    }
+}
+
+#like{
+    .like{
+        h4{
+            text-align: center;
+            font-size: 40px;
+            padding: 50px 0;
+        }
+        h5{
+            font-size: 18px;
+            text-align: center;
+            padding: 20px 0;
+            transition: .4s;
+            color: #292621;
+            &:hover{
+                color: red;
+                cursor: pointer;
+            }
+        }
+        h6{
+            text-align: center;
+            font-size: 15px;
+            color: #292621;
+
+        }
+    }
+}
+
+#news{
+    background-color: #F6F6F6;
+    padding: 50px 0;
+    .news{
+        h4{
+            text-align: center;
+            font-size: 40px;
+            padding: 50px 0;
+        }
+        h3{
+            padding: 15px 0;
+            font-size: 22px;
+            transition: .4s;
+            &:hover{
+                cursor: pointer;
+                color: red;
+            }
+        }
+        p{
+            font-size: 18px;
+            padding: 10px 0;
+            color: #74706B;
+        }
+    }
+}
+
+#delivery{
+    .delivery{
+        text-align: center;
+        img{
+            padding: 30px 0;
+        }
+        p{
+            padding: 10px 0;
+        }
+        h3{
+            font-size: 22px;
+        }
+    }
+}
